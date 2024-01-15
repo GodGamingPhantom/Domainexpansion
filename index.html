@@ -12,9 +12,10 @@
 			background-size: cover;
 			background-attachment: fixed, scroll;
 		}
-		.anime-streaming {
+		.column {
+			display: flex;
+			justify-content: space-around;
 			padding: 50px;
-			text-align: center;
 		}
 		.anime-box {
 			display: inline-block;
@@ -23,6 +24,7 @@
 			border-radius: 10px;
 			box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 			margin: 20px;
+			flex-basis: calc(33% - 40px);
 		}
 		.watch-now-button {
 			display: inline-block;
@@ -37,10 +39,23 @@
 </head>
 <body>
 	<h1 style="text-align:center; padding-top:100px; font-size:50px; color: #fff;">Domain Expansion</h1>
-	<div class="anime-streaming">
-		<div class="anime-box">
-			<h2>JJK Season 1</h2>
-			<a href="episode1.html" class="watch-now-button">Watch Now</a>
+	<div class="column">
+		<div class="anime-streaming">
+			<div class="anime-box">
+				<h2>JJK Season 1</h2>
+				<a href="/Domainexpansion/jjk/episode1.html" class="watch-now-button">Watch Now</a>
+			</div>
+		</div>
+		<div class="anime-streaming">
+			<div class="anime-box">
+				<h2>Spy x Family Season 1</h2>
+				<a href="/Domainexpansion/sxf/sxf1.html" class="watch-now-button">Watch Now</a>
+			</div>
+            <div class="anime-streaming">
+			<div class="anime-box">
+				<h2>Demon Slayer Season 1</h2>
+				<a href="/Domainexpansion/ds/ds1.html" class="watch-now-button">Watch Now</a>
+			</div>
 		</div>
 	</div>
 </body>
