@@ -1,0 +1,204 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    position: relative;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    
+}
+.form-box-0{
+    width: 1485px;
+    height: 500px;
+    padding: 20px;
+    background: rgba(4, 3, 3, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    position: relative;
+    z-index: 2;
+    backdrop-filter: blur(3px);
+    opacity:  .9;
+    overflow-y: scroll;
+    
+}
+.form-box-1{
+    width: 20%;
+    height: 70%;
+    padding: 0.35%;
+    background: rgba(5, 0, 0, 0.616);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(149, 28, 180, 0.549);
+    position: absolute;
+    z-index: 2;
+    margin-left: 2%;
+    animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+  
+}
+.form-box-1:hover{
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.693);
+    position: absolute;
+    z-index: 2;
+    transform: scale(1.20);
+
+}
+.form-value-0{
+    width: 80%;
+    max-width: 300px;
+    padding: auto;
+    margin: auto;
+    animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+
+}
+.banner{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    max-width: 83%;
+    margin: auto;
+    border-radius: 10px;
+    animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+.banner:hover{
+    filter: opacity(1);
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#Video{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+@keyframes example{
+    from {left: 0px;}
+    to {left: 1055px}
+  }
+  @keyframes example-2{
+    from {left: 0px;}
+    to {left: 600px}
+  }
+  @keyframes example-3{
+    from {left: 0px;}
+    to {left: 145px}
+  }
+  .form-box-2{
+    width: 20%;
+    height: 70%;
+    padding: 0.35%;
+    background: rgba(5, 0, 0, 0.616);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(149, 28, 180, 0.549);
+    position: absolute;
+    z-index: 2;
+    margin-left: 2%;
+    animation-name: example-2;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
+  }
+
+  .form-box-3{
+    width: 20%;
+    height: 70%;
+    padding: 0.35%;
+    background: rgba(5, 0, 0, 0.616);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(149, 28, 180, 0.549);
+    position: absolute;
+    z-index: 2;
+    margin-left: 2%;
+    animation-name: example-3;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
+  
+  }
+  .form-value-2{
+    width: 80%;
+    max-width: 300px;
+    padding: auto;
+    margin: auto;
+    animation-name: example-3;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+
+}
+.form-box-2:hover{
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.693);
+    position: absolute;
+    z-index: 2;
+    transform: scale(1.20);
+}
+.form-box-3:hover{
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.693);
+    position: absolute;
+    z-index: 2;
+    transform: scale(1.20);
+}
+.form-value-1{
+    width: 80%;
+    max-width: 300px;
+    padding: auto;
+    margin: auto;
+    animation-name: example-2;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+
+}
+.form-box-4{
+    margin-top: 31%;
+    width: 20%;
+    height: 70%;
+    padding: 0.35%;
+    background: rgba(5, 0, 0, 0.616);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(149, 28, 180, 0.549);
+    position: absolute;
+    z-index: 2;
+    margin-left: 2%;
+    animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+  
+}
+.form-box-4:hover{
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.693);
+    position: absolute;
+    z-index: 2;
+    transform: scale(1.20);
+
+}
+.form-value-3{
+    width: 80%;
+    max-width: 300px;
+    padding: auto;
+    margin: auto;
+    animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+
+}
